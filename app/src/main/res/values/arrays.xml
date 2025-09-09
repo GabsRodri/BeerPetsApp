@@ -5,8 +5,10 @@
         <item>Brown</item>
         <item>Dark</item>
     </string-array>
-    <string-array name="pet_categories">
-        <item>Pastores</item>
-        <item>Pinscher</item>
+    <string-array name="encomienda_categories">
+        <item>Sobres</item>
+        <item>Paquetes</item>
+        <item>Documentos</item>
+        <item>Productos</item>
     </string-array>
 </resources>
