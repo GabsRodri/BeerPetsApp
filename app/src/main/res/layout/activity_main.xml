@@ -55,10 +55,10 @@
         app:layout_constraintTop_toBottomOf="@id/textBrands" />
 
     <TextView
-        android:id="@+id/labelPets"
+        android:id="@+id/labelSends"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Elige categoría de mascota"
+        android:text="Elige categoría de encomienda"
         android:textStyle="bold"
         android:paddingTop="16dp"
         app:layout_constraintTop_toBottomOf="@id/divider"
@@ -67,7 +67,7 @@
 
 
     <Spinner
-        android:id="@+id/spinnerPets"
+        android:id="@+id/spinnerSends"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -76,28 +76,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/labelPets" />
+        app:layout_constraintTop_toBottomOf="@id/labelSends" />
 
     <Button
-        android:id="@+id/buttonFindPets"
+        android:id="@+id/buttonFindSends"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:onClick="findPets"
-        android:text="Buscar razas"
+        android:text="Buscar encomiendas"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/spinnerPets" />
+        app:layout_constraintTop_toBottomOf="@id/spinnerSends" />
 
     <TextView
-        android:id="@+id/textPets"
+        android:id="@+id/textSends"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:paddingTop="12dp"
-        android:text="Razas encontradas:"
+        android:text="Encomiendas encontradas:"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/buttonFindPets" />
+        app:layout_constraintTop_toBottomOf="@id/buttonFindSends" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

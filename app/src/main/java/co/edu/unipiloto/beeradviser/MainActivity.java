@@ -27,15 +27,15 @@ public class MainActivity extends AppCompatActivity {
         brandsText.setText(getString(R.string.result_header) + "\n" + String.join("\n", brands));
     }
 
-    public void findPets(View view) {
-        Spinner spinner = findViewById(R.id.spinnerPets);
-        TextView breedsText = findViewById(R.id.textPets);
+    public void findSends(View view) {
+        Spinner spinner = findViewById(R.id.spinnerSends);
+        TextView breedsText = findViewById(R.id.textSends);
 
         String category = spinner.getSelectedItem().toString();
-        PetExpert petExpert = new PetExpert();
-        List<String> breeds = petExpert.getBreeds(category);
+        SendExpert sendExpert = new SendExpert();
+        List<String> breeds = sendExpert.getTipos(category);
 
-        StringBuilder breedsFormatted = new StringBuilder("Razas encontradas:\n");
+        StringBuilder breedsFormatted = new StringBuilder("Encomiendas encontradas:\n");
         for (String breed : breeds) {
             breedsFormatted.append(breed).append("\n");
         }
